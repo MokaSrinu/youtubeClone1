@@ -1,0 +1,29 @@
+#card{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+}
+#card div{
+    padding:10px;
+}
+#navbar{
+    display:flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin:0px;
+    border:0px;
+    padding:10px;
+    
+}
+#navbar>div:nth-child(2){
+    margin-left:200px
+}
+#navbar>div:nth-child(2) input{
+    padding:10px;
+    width:400px
+}
+#navbar>div:nth-child(2) button{
+    background-color:white;
+    margin-left:-6px;
+    padding:2px;
+}
+
