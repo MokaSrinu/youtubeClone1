@@ -1,6 +1,6 @@
 function search(query){
-    //var url="https://www.googleapis.com/youtube/v3/search?part=snippet&q="+query+"&maxResults=20&key=AIzaSyD_DMqTDpHYOIUI4scqj9jo3JqxuxJXt48";
-    var url2="https://www.googleapis.com/youtube/v3/search?maxResults=20&part=snippet&q="+query+"&key=AIzaSyD_DMqTDpHYOIUI4scqj9jo3JqxuxJXt48"
+    //var url="https://www.googleapis.com/youtube/v3/search?part=snippet&q="+query+"&maxResults=20&key=";
+    var url2="https://www.googleapis.com/youtube/v3/search?maxResults=20&part=snippet&q="+query+"&key="
     var response=fetch(url2);
     //console.log(url2);
     response.then((res)=>res.json())
